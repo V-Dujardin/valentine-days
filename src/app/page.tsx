@@ -215,7 +215,7 @@ export default function Home() {
       <main className="flex-col items-center justify-between bg-white sm:items-start p-2 rounded-lg">
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <Image
-            src={images[imageIndex]}
+            src={"." + images[imageIndex]}
             alt="Valentine"
             width={300}
             height={300}
