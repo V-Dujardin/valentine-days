@@ -177,7 +177,7 @@ export default function Home() {
         <main className="flex-col items-center justify-between bg-white/80 backdrop-blur-sm p-6 rounded-lg z-10 relative">
           <div className="flex flex-col items-center gap-6 text-center">
             <Image
-              src="/victoire.jpg"
+              src="./victoire.jpg"
               alt="Victoire"
               width={300}
               height={300}
